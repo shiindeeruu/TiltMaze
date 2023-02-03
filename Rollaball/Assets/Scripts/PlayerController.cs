@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
 
         if(other.gameObject.CompareTag("Chicken"))
         {
-            transform.position = new Vector3(8.5f, 0.5f, 9.0f);
+            transform.position = new Vector3(0.473f, 0.813f, 1.29f);
         }
     }
 }

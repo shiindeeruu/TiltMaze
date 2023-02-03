@@ -32,10 +32,7 @@ public class TiltScript : MonoBehaviour
 
         Vector2 m = moveAction[hand].axis;
         //transform.Rotate(new Vector3(m.x, 0, m.y));
-        transform.Rotate(new Vector3(0, 0, 0));
-
-
-
+        transform.Rotate(new Vector3(0, 1, 0) * Time.deltaTime);
     }
 }
 
