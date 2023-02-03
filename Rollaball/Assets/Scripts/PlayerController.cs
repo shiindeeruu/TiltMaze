@@ -63,5 +63,10 @@ public class PlayerController : MonoBehaviour
 
             SetCountText();
         }
+
+        if(other.gameObject.CompareTag("Chicken"))
+        {
+            transform.position = new Vector3(8.5f, 0.5f, 9.0f);
+        }
     }
 }
