@@ -5613,15 +5613,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ee4ed5021eb554f8c184cdbf0cad22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Joystick: {fileID: 0}
-  joyMove: 0.1
   moveAction:
     actionPath: /actions/platformer/in/Move
     needsReinit: 0
   jumpAction:
     actionPath: /actions/platformer/in/Jump
     needsReinit: 0
-  jumpHighlight: {fileID: 0}
+  hand: 2
 --- !u!1001 &1772255766
 PrefabInstance:
   m_ObjectHideFlags: 0
